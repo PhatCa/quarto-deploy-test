@@ -1,0 +1,14 @@
+{
+  "hash": "43811fa68535bcffb90dca842ad449b8",
+  "result": {
+    "markdown": "---\ntitle: \"knitr kable for table formatting\"\nauthor: \"Phat\"\ndate: \"2023-11-06\"\ncategories: [testing]\nimage: \"thumb.png\"\n---\n\n\nThis example uses knitr kable for additional table formatting.\n\n\n::: {.cell}\n\n```{.r .cell-code}\ndf <- data.frame(player = c('AJ', 'Bob', 'Chad', 'Dan', 'Eric', 'Frank'),\n                 position = c('A', 'B', 'B', 'B', 'B', 'A'),\n                 points = c(5, 2, 2, 1, 0, 0))\n\n#view data frame\nknitr::kable(df[1:6, ], )\n```\n\n::: {.cell-output-display}\n|player |position | points|\n|:------|:--------|------:|\n|AJ     |A        |      5|\n|Bob    |B        |      2|\n|Chad   |B        |      2|\n|Dan    |B        |      1|\n|Eric   |B        |      0|\n|Frank  |A        |      0|\n:::\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
