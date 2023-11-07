@@ -2,4 +2,4 @@
 package = "@quarto/netlify-plugin-quarto"
 
 [build]
-  command = "quarto render"
+  command = "Rscript R/install-packages.R && quarto render"
