@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 8b26fbda-8301-4ae3-9600-cc146a04d0eb
+      url: 'https://luxury-tanuki-7c3787.netlify.app'

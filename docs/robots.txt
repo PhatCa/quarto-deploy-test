@@ -1,1 +1,1 @@
-Sitemap: https://github.com/Oppkey/quarto/sitemap.xml
+Sitemap: https://luxury-tanuki-7c3787.netlify.app/sitemap.xml

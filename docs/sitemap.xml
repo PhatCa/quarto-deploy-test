@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/Oppkey/quarto/index.html</loc>
-    <lastmod>2023-11-06T21:59:37.742Z</lastmod>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/about.html</loc>
+    <lastmod>2023-11-07T18:38:06.564Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/Oppkey/quarto/posts/phat-folder/index.html</loc>
-    <lastmod>2023-11-06T21:59:32.945Z</lastmod>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/phat-folder/index.html</loc>
+    <lastmod>2023-11-07T18:38:05.871Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/welcome/index.html</loc>
+    <lastmod>2023-11-07T18:38:05.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/tidyverse/index.html</loc>
+    <lastmod>2023-11-07T18:38:04.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/margin-figures/index.html</loc>
+    <lastmod>2023-11-07T18:38:03.583Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/advanced/index.html</loc>
+    <lastmod>2023-11-07T18:38:01.909Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/plot/index.html</loc>
+    <lastmod>2023-11-07T18:38:04.055Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/knit-kable/index.html</loc>
+    <lastmod>2023-11-07T18:38:04.774Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/posts/table/index.html</loc>
+    <lastmod>2023-11-07T18:38:05.506Z</lastmod>
+  </url>
+  <url>
+    <loc>https://luxury-tanuki-7c3787.netlify.app/index.html</loc>
+    <lastmod>2023-11-07T18:38:06.352Z</lastmod>
   </url>
 </urlset>
