@@ -1,0 +1,16 @@
+{
+  "hash": "6b4b28285887603492198d8f1257a541",
+  "result": {
+    "markdown": "---\ntitle: \"R Snippets with Rendered Chart Example\"\nauthor: \"Craig\"\ndate: \"2023-10-06\"\ncategories: [workflow]\n---\n\n\nSimple example of using R snippets to show a chart.\n\nThis ggplot example is built from the [quarto documentation](https://quarto.org/docs/computations/r.html).\n\n## Air Quality\n\n@fig-airquality further explores the impact of temperature on ozone level.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n```\n\n::: {.cell-output-display}\n![Temperature and ozone level.](index_files/figure-html/fig-airquality-1.png){#fig-airquality width=672}\n:::\n:::\n\n\n------------------------------------------------------------------------\n\nThe sample blog template also comes with a simple R system addition test.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

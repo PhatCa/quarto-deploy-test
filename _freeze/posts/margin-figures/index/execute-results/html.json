@@ -1,0 +1,16 @@
+{
+  "hash": "3771bc053aa69b57aeadf8552690518b",
+  "result": {
+    "markdown": "---\ntitle: \"An Example of Margin Figures\"\nauthor: \"Erik\"\nsubtitle: \"Using the Quarto chunk option `column: margin`\"\ndate: \"2023-10-08\"\n---\n\n\n# Introduction\n\nImages and graphics play an integral role in Tufte’s work. To place figures in the margin you can use the **Quarto** chunk option `column: margin`. For example:\n\n\n::: {.cell .column-margin}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nmtcars2 <- mtcars\nmtcars2$am <- factor(\n  mtcars$am, labels = c('automatic', 'manual')\n)\nggplot(mtcars2, aes(hp, mpg, color = am)) +\n  geom_point() + geom_smooth() +\n  theme(legend.position = 'bottom')\n```\n\n::: {.cell-output-display}\n![MPG vs horsepower, colored by transmission.](index_files/figure-html/fig-margin-1.png){#fig-margin width=672}\n:::\n:::\n\n\n\nNote the use of the `fig-cap` chunk option to provide a figure caption. You can adjust the proportions of figures using the `fig-width` and `fig-height` chunk options. These are specified in inches, and will be automatically scaled down to fit within the handout margin.\n\n\n::: {.cell .column-margin}\n\n```{.r .cell-code}\nlibrary(ggplot2)\nmtcars2 <- mtcars\nmtcars2$am <- factor(\n  mtcars$am, labels = c('automatic', 'manual')\n)\nggplot(mtcars2, aes(hp, mpg, color = am)) +\n  geom_point() + geom_smooth() +\n  theme(legend.position = 'bottom')\n```\n\n::: {.cell-output-display}\n![Icecream vs chocolate, colored by flavor.](index_files/figure-html/fig-margin-second-1.png){#fig-margin-second width=1920}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
