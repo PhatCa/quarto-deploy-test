@@ -1,10 +1,2 @@
 [[plugins]]
 package = "@quarto/netlify-plugin-quarto"
-
-[build]
-  command = |
-    wget https://cran.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc -O - | sudo apt-key add -
-    sudo add-apt-repository 'deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/'
-    sudo apt-get update
-    sudo apt-get install -y r-base
-    quarto render
